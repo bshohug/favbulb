@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Practice</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body style="text-align: center;">
+    <h2 style="color: rgb(19, 19, 19);">
+        Choose Your favourite Bulb &#128513
+    </h2>
+
+    <img id="myImage" src="pic/white.png" style="width: 200px;" />
+
+    <br />
+    <div class="colorrange">
+        <div class="allbutton"><button class="whitebtn"
+                onclick="document.getElementById('myImage').src='pic/white.png';increment()">
+                White
+            </button> <br><input id="ddwhite" type="text"></div>
+
+        <div class="allbutton"><button class="cyanbtn" onclick="document.getElementById('myImage').src='pic/cyan.png'">
+                Cyan
+            </button> <br><input id="ddcyan" style="border-color: cyan;" type="text"></div>
+
+        <div class="allbutton"><button class="greenbtn"
+                onclick="document.getElementById('myImage').src='pic/green.png'">
+                Green
+            </button> <br><input style="border-color: green;" type="text"></div>
+
+        <div class="allbutton"><button class="orangebtn"
+                onclick="document.getElementById('myImage').src='pic/orange.png'">
+                Orange
+            </button> <br><input style="border-color: orange;" type="text"></div>
+
+        <div class="allbutton"><button class="pinkbtn" onclick="document.getElementById('myImage').src='pic/pink.png'">
+                Pink
+            </button> <br><input style="border-color: pink;" type="text"></div>
+
+        <div class="allbutton"><button class="purplebtn"
+                onclick="document.getElementById('myImage').src='pic/purple.png'">
+                Purple
+            </button> <br><input style="border-color: purple;" type="text"></div>
+
+        <div class="allbutton"><button class="redbtn" onclick="document.getElementById('myImage').src='pic/red.png'">
+                Red
+            </button> <br><input style="border-color: red;" type="text"></div>
+
+        <div class="allbutton"><button class="bluebtn" onclick="document.getElementById('myImage').src='pic/blue.png'">
+                Blue
+            </button> <br><input style="border-color: blue;" type="text"></div>
+
+        <div class="allbutton"><button class="yellowbtn"
+                onclick="document.getElementById('myImage').src='pic/yellow.png'">
+                Yellow
+            </button> <br><input style="border-color: yellow;" type="text"></div>
+
+    </div>
+
+
+    <script>
+        var b = 0
+
+        function increment() {
+            b++;
+            document.getElementById("ddwhite").value = b;
+
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>

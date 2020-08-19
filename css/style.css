@@ -1,0 +1,107 @@
+.whitebtn {
+    border-color: black;
+    background-color: white;
+}
+
+
+
+.cyanbtn {
+    border-color: cyan;
+    background-color: white;
+}
+
+
+
+.greenbtn {
+    border-color: #24A36A;
+    background-color: white;
+}
+
+
+
+.orangebtn {
+    border-color: #F15A24;
+    background-color: white;
+}
+
+
+
+.pinkbtn {
+    border-color: #FF00FF;
+    background-color: white;
+}
+
+
+
+.purplebtn {
+    border-color: #662D91;
+    background-color: white;
+}
+
+
+
+.redbtn {
+    border-color: red;
+    background-color: white;
+}
+
+
+
+.bluebtn {
+    border-color: #0000FF;
+    background-color: white;
+}
+
+
+
+.yellowbtn {
+    border-color: #FFFF00;
+    background-color: white;
+}
+
+
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: inline;
+    border: none;
+    color: gray;
+
+
+}
+
+button:hover {
+    color: rgb(5, 64, 92);
+}
+
+
+input[type=text] {
+    width: 25px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1.2px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+input[type=text]:hover {
+    background-image: linear-gradient(to bottom right, #D3CCE3, #E9E4F0);
+}
+
+.colorrange {
+    margin: 20px;
+    padding: 0;
+
+
+
+}
+
+.allbutton {
+    margin: 5px 5px;
+    display: inline-block;
+}
